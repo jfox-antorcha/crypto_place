@@ -21,7 +21,7 @@ const NavBar = () => {
     <nav className='w-full flex md:justify-center justify-between items-center p-4'>
       <div className='md:flex-[1] flex flex-row justify-start items-center'>
         <img src={logo} alt='logo' className='w-24 cursor-pointer' />
-        <h3>CryptoPlace</h3>
+        <h3>FOX CryptoPlace</h3>
       </div>
       <ul className='text-white md:flex hidden list-none flex-row justify-between flex-initial items-center'>
         {LIST_ITEMS.map((item, index) => (
